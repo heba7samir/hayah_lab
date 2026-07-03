@@ -29,7 +29,7 @@ export const Header = ({ isOpen, setIsOpen }) => {
                        
                     )}
                     {/* Main_List */}
-                    <div className={` absolute top-[50px] left-[-40px] bg-white shadow-md z-[999]  transition-all
+                    <div className={` absolute top-[50px] left-[-20px] md:left-[-40px] bg-white shadow-md z-[999]  transition-all
                                         duration-300 ease-in-out
                          ${isOpen ? "translate-x-0" : "-translate-x-full"}`}>
                         <div className="menu flex flex-col gap-3  w-[400px] py-8 ">
@@ -125,11 +125,11 @@ export const Header = ({ isOpen, setIsOpen }) => {
                                 <span className='text-xl text-slate-900'>Personal Care</span>
 
                             </NavLink>
-                            <NavLink to={"/offers"}
+                            {/* <NavLink to={"/offers"}
                                 className={`flex  justify-between items-center py-2 px-4 md:px-8 hover:bg-slate-100 group`}>
                                 <span className='text-xl text-slate-900'>Offers</span>
                                 <IoIosArrowRoundForward className='text-3xl transition-transform duration-300 group-hover:translate-x-2' />
-                            </NavLink>
+                            </NavLink> */}
                             <NavLink to={"/bunndelsandkits"}
                                 className={`flex  justify-between items-center py-2 px-4 md:px-8 hover:bg-slate-100 group`}>
                                 <span className='text-xl text-slate-900'>Bunndels And Kits </span>

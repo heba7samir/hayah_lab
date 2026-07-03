@@ -34,7 +34,7 @@ export const Hero = () => {
                   key={currentImage}
                   src={images[currentImage]}
                   alt="Hero"
-                  className="absolute inset-0 w-[400px] h-[200px] md:w-full md:h-full object-cover"
+                  className="absolute inset-0 w-[450px] h-[200px] md:w-full md:h-full object-cover"
                   initial={{ x: 300, opacity: 0 }}
                   animate={{ x: 0, opacity: 1 }}
                   exit={{ x: -300, opacity: 0 }}
