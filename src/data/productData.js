@@ -32,6 +32,10 @@ import product31 from "../assets/images/uve/gel.webp";
 import product32 from "../assets/images/uve/lightcream.webp";
 import product33 from "../assets/images/uve/milk.webp";
 import product34 from "../assets/images/uve/aftersun.webp";
+import product35 from "../assets/images/bund/Cleanser_Exo.webp";
+import product36 from "../assets/images/bund/Cream_Ultra_81ee6591-9b08-489b-90e0-51cd135e6bfa.webp";
+import product37 from "../assets/images/bund/Kids_Dry.webp";
+import product38 from "../assets/images/bund/WEB-9.webp";
 export const products = [
     {
         id: 1,
@@ -355,5 +359,39 @@ export const products = [
         image: product32,
         new_product: "NEW",
         categories: ["skin-care", "uvepro", "new_products"],
+    },
+    {
+        id: 35,
+        name: "SEBACLARE",
+        desc: "Box",
+        price: 512.0,
+        oldPrice: 740.0,
+        discount: 25,
+        image: product35,
+        categories: ["skin-care", "bundlesandkits", "best-seller"],
+    },
+    {
+        id: 38,
+        desc: "Laser Kit For Dry Skin",
+        price: 575.0,
+        image: product38,
+        categories: ["skin-care", "bundlesandkits"],
+    },
+    {
+        id: 36,
+        name: "UVEPRO",
+        desc: "Box",
+        price: 512.0,
+        oldPrice: 740.0,
+        discount: 25,
+        image: product36,
+        categories: ["skin-care", "bundlesandkits"],
+    },
+    {
+        id: 37,
+        desc: "Barrier Repair & Hydration Duo",
+        price: 450.0,
+        image: product37,
+        categories: ["skin-care", "bundlesandkits"],
     },
 ];

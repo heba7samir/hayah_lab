@@ -96,6 +96,9 @@ export const App = () => {
       },
       {
         path: "checkout", element: <Checkout />
+      },
+      {
+        path: "bunndelsandkits", element: <BunndelsAndKits />
       }
     ]
   }])

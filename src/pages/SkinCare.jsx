@@ -1,6 +1,5 @@
 import React from 'react'
 import { products } from "../data/productData";
-
 import { Card } from '../Components/Card';
 export const SkinCare = () => {
     const skinProducts = products.filter((product) =>

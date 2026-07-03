@@ -75,13 +75,13 @@ export const Card = ({
                 </div>
 
                 {/* Product Info */}
-                <div className="product_name mt-4 text-center">
+                <div className="product_name mt-4 text-center flex flex-row justify-center gap-2">
 
                     <h3 className="text-sm font-semibold">
                         {name}
                     </h3>
 
-                    <p className="text-xs mt-1">
+                    <p className="text-sm ">
                         {desc}
                     </p>
 
