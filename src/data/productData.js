@@ -1,0 +1,360 @@
+import product1 from "../assets/images/Ageal/Hayah_laboratories_03-09-20261220.webp";
+import product2 from "../assets/images/Ageal/Hayah_laboratories_03-09-20261221.webp";
+import product3 from "../assets/images/BODUIM/AntiStretch.webp";
+import product4 from "../assets/images/BODUIM/Framing_del.webp";
+import product5 from "../assets/images/CICA/cicaCream.jpg";
+import product6 from "../assets/images/CICA/gel.webp";
+import product7 from "../assets/images/CICA/CicaBodyMilk.webp";
+import product8 from "../assets/images/MELATIX/Lightening_cream_30ml_1.webp";
+import product9 from "../assets/images/MELATIX/Hayah_laboratories_03-09-20261252.webp";
+import product10 from "../assets/images/MELATIX/Lighteningrollonjasmine.webp";
+import product11 from "../assets/images/MELATIX/Lighteningrollonoud.webp";
+import product12 from "../assets/images/MELATIX/deo 1.webp";
+import product13 from "../assets/images/MELATIX/Lighteningrollonfruity.webp";
+import product14 from "../assets/images/MELATIX/Lighteningrollonrose.webp";
+import product15 from "../assets/images/CEBACLARE/515S4DlxKOL.jpg";
+import product16 from "../assets/images/CEBACLARE/cleanser.webp";
+import product17 from "../assets/images/CEBACLARE/Micelar.webp";
+import product18 from "../assets/images/CEBACLARE/tonic.webp";
+import product19 from "../assets/images/STRALINE/cream.webp";
+import product20 from "../assets/images/STRALINE/bodymilk.jpg";
+import product21 from "../assets/images/STRALINE/bodymilk500ml.jpg";
+import product22 from "../assets/images/STRALINE/cleanser.webp";
+import product23 from "../assets/images/hair care/New folder/ANTI.webp";
+import product24 from "../assets/images/hair care/New folder/Revitalizing_mask_b9fa808a-3b9a-4133-a67e-b97d40167ed1 (1).webp";
+import product25 from "../assets/images/hair care/New folder/Volumizing_shampoo_200ml_11f4e50b-a7aa-4881-9534-599a68af73cf.webp";
+import product26 from "../assets/images/hair care/New folder/CONDITONER.webp";
+import product27 from "../assets/images/hair care/New folder/Hayah_laboratories_03-09-20261268.webp";
+import product28 from "../assets/images/uribar/41-thUS8VTL._AC_UL495_SR435,495_.jpg";
+import product29 from "../assets/images/uribar/Hayah_laboratories_03-09-20261213.webp";
+import product30 from "../assets/images/uve/drytouch.webp";
+import product31 from "../assets/images/uve/gel.webp";
+import product32 from "../assets/images/uve/lightcream.webp";
+import product33 from "../assets/images/uve/milk.webp";
+import product34 from "../assets/images/uve/aftersun.webp";
+export const products = [
+    {
+        id: 1,
+        name: "AGEAL",
+        desc: "Collagen Dietary Supplement",
+        price: 345.0,
+        oldPrice: 432.0,
+        discount: 20,
+        image: product1,
+        categories: ["skin-care", "ageal"],
+    },
+
+    {
+        id: 2,
+        name: "AGEAL",
+        desc: "Rich Cream 50 ml",
+        price: 419.2,
+        oldPrice: 524.0,
+        discount: 20,
+        image: product2,
+        categories: ["skin-care", "ageal"],
+    },
+    {
+        id: 3,
+        name: "BODUIM",
+        desc: "Anti_Strech Marks Cream",
+        price: 261.4,
+        oldPrice: 362.0,
+        discount: 20,
+        image: product3,
+        categories: ["skin-care", "boduim"],
+    },
+    {
+        id: 4,
+        name: "BODUIM",
+        desc: "Friming Cream 200ml",
+        price: 261.4,
+        oldPrice: 362.0,
+        discount: 20,
+        image: product4,
+        categories: ["skin-care", "boduim"],
+    },
+    {
+        id: 5,
+        name: "CICA",
+        desc: "Lab Soothing Cream 50ml",
+        price: 199.0,
+        oldPrice: 286.0,
+        discount: 20,
+        image: product5,
+        categories: ["skin-care", "cica", "best_seller"],
+    },
+    {
+        id: 6,
+        name: "CICA",
+        desc: "Lab Soothing Gel 50ml",
+        price: 199.0,
+        oldPrice: 286.0,
+        discount: 20,
+        image: product6,
+        categories: ["skin-care", "cica", "best_seller"],
+    },
+    {
+        id: 7,
+        name: "CICA",
+        desc: "Body Milk 200ml",
+        price: 331.0,
+        oldPrice: 389.0,
+        discount: 20,
+        image: product7,
+        categories: ["skin-care", "cica"],
+    },
+    {
+        id: 8,
+        name: "MELATEX",
+        desc: "Lidhtining Cream 50ml",
+        price: 360.0,
+        oldPrice: 307.0,
+        discount: 20,
+        image: product8,
+        categories: ["skin-care", "melatex", "best_seller"],
+    },
+    {
+        id: 9,
+        name: "MELATEX",
+        desc: "Lidhtining Roll On Lavnder 60ml",
+        price: 225.0,
+        offer: "buy one get one free",
+        image: product9,
+        categories: ["personal-care", "melatex"],
+    },
+    {
+        id: 10,
+        name: "MELATEX",
+        desc: "Lidhtining Roll On Jasmine 60ml",
+        price: 225.0,
+        offer: "buy one get one free",
+        image: product10,
+        categories: ["personal-care", "melatex"],
+    },
+    {
+        id: 11,
+        name: "MELATEX",
+        desc: "BLidhtining Roll On Oud 60ml",
+        price: 225.0,
+        offer: "buy one get one free",
+        image: product11,
+        categories: ["personal-care", "melatex"],
+    },
+    {
+        id: 12,
+        name: "MELATEX",
+        desc: "BLidhtining Roll On Original 60ml",
+        price: 225.0,
+        offer: "buy one get one free",
+        image: product12,
+        categories: ["personal-care", "melatex"],
+    },
+    {
+        id: 13,
+        name: "MELATEX",
+        desc: "BLidhtining Roll On Fruity 60ml",
+        price: 225.0,
+        offer: "buy one get one free",
+        image: product13,
+        categories: ["personal-care", "melatex"],
+    },
+    {
+        id: 14,
+        name: "MELATEX",
+        desc: "BLidhtining Roll On Rose 60ml",
+        price: 225.0,
+        offer: "buy one get one free",
+        image: product14,
+        categories: ["personal-care", "melatex"],
+    },
+    {
+        id: 15,
+        name: "SEBACLARE",
+        desc: "Hydra Cream 50ml",
+        price: 199.0,
+        oldPrice: 286.0,
+        discount: 30,
+        image: product15,
+        categories: ["skin-care", "sebaclare", "best-seller"],
+    },
+    {
+        id: 16,
+        name: "SEBACLARE",
+        desc: "Purifying Cleanser Gel 200ml",
+        price: 199.0,
+        oldPrice: 307.0,
+        discount: 30,
+        image: product16,
+        categories: ["skin-care", "sebaclare", "best-seller"],
+    },
+    {
+        id: 17,
+        name: "SEBACLARE",
+        desc: "Purifying Meselar Water 200ml",
+        price: 199.0,
+        oldPrice: 307.0,
+        discount: 30,
+        image: product16,
+        new_product: "NEW",
+        categories: ["skin-care", "sebaclare", "new-products"],
+    },
+    {
+        id: 18,
+        name: "SEBACLARE",
+        desc: "Tonic Lotion 200ml",
+        price: 199.0,
+        oldPrice: 307.0,
+        discount: 30,
+        image: product18,
+        new_product: "NEW",
+        categories: ["skin-care", "sebaclare", "new_products"],
+    },
+    {
+        id: 19,
+        name: "STRALINE",
+        desc: "Emollient Cream 200ml",
+        price: 228.0,
+        oldPrice: 326.0,
+        discount: 25,
+        image: product19,
+        categories: ["skin-care", "straline", "best-seller"],
+    },
+    {
+        id: 20,
+        name: "STRALINE",
+        desc: "Body Milk 200ml",
+        price: 218.0,
+        oldPrice: 312.0,
+        discount: 25,
+        image: product20,
+        categories: ["skin-care", "straline", "best-seller"],
+    },
+    {
+        id: 21,
+        name: "STRALINE",
+        desc: "Body Milk 500ml",
+        price: 394.0,
+        oldPrice: 563.0,
+        discount: 30,
+        image: product21,
+        categories: ["skin-care", "straline", "new_products"],
+    },
+    {
+        id: 22,
+        name: "STRALINE",
+        desc: "Cleanser Gel 200ml",
+        price: 199.0,
+        oldPrice: 214.0,
+        discount: 15,
+        image: product22,
+        categories: ["skin-care", "straline"],
+    },
+    {
+        id: 23,
+        name: "TRIX",
+        desc: "Anti Dandruff Shampoo 200ml",
+        price: 150.0,
+        oldPrice: 219.0,
+        discount: 25,
+        image: product23,
+        categories: ["hair-care", "trix", "best-seller"],
+    },
+    {
+        id: 24,
+        name: "TRIX",
+        desc: "Revitalizing Hair Mask 250ml",
+        price: 350.0,
+        image: product24,
+        new_product: "NEW",
+        categories: ["hair-care", "trix", "new_products"],
+    },
+    {
+        id: 25,
+        name: "TRIX",
+        desc: "Volumizing Shampoo 200ml",
+        price: 150.0,
+        oldPrice: 219.0,
+        discount: 25,
+        image: product25,
+        categories: ["hair-care", "trix", "best-seller"],
+    },
+    {
+        id: 26,
+        name: "TRIX",
+        desc: "Revitalizing conditioner  200ml",
+        price: 430.0,
+        image: product26,
+        new_product: "NEW",
+        categories: ["hair-care", "trix", "new_products"],
+    },
+    {
+        id: 27,
+        name: "TRIX",
+        desc: "Volumizing Shampoo 200ml",
+        price: 150.0,
+        oldPrice: 219.0,
+        discount: 25,
+        image: product27,
+        categories: ["hair-care", "trix"],
+    },
+    {
+        id: 28,
+        name: "UREPAR",
+        desc: "Body Cream Urea 10% 200ml",
+        price: 250.0,
+        oldPrice: 400.0,
+        discount: 45,
+        image: product28,
+        categories: ["skin-care", "urepar", "best-seller"],
+    },
+    {
+        id: 29,
+        name: "UREPAR",
+        desc: "Foot Cream Urea 10% 275ml",
+        price: 120.0,
+        oldPrice: 200.0,
+        discount: 25,
+        image: product29,
+        categories: ["skin-care", "urepar"],
+    },
+    {
+        id: 30,
+        name: "UVEPRO",
+        desc: "Dry Touch Cream SPF 50ml",
+        price: 157.0,
+        oldPrice: 313.0,
+        discount: 25,
+        image: product30,
+        categories: ["skin-care", "uvepro", "best-seller"],
+    },
+    {
+        id: 31,
+        name: "UVEPRO",
+        desc: "Oil Control Gel Cream SPF50+ 50ml",
+        price: 145.0,
+        oldPrice: 289.0,
+        discount: 25,
+        image: product31,
+        categories: ["skin-care", "uvepro", "best-seller"],
+    },
+    {
+        id: 32,
+        name: "UVEPRO",
+        desc: "Light Texture  Cream SPF50+ 50ml",
+        price: 430.0,
+        image: product32,
+        new_product: "NEW",
+        categories: ["skin-care", "uvepro", "new_products"],
+    },
+     {
+        id: 33,
+        name: "UVEPRO",
+        desc: "Milk  Cream SPF50+ 50ml",
+        price: 360.0,
+        image: product32,
+        new_product: "NEW",
+        categories: ["skin-care", "uvepro", "new_products"],
+    },
+
+];
